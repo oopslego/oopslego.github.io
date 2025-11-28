@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css"/>
+    <title>Profile</title>
+  </head>
+  <body>
+    <header data-aos="fade-down" data-aos-delay="400">
+      <div class="container">
+        <div class="content">
+          <div class="logo">
+            <a href="">Nguyễn Thị Diệu.</a>
+          </div>
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill" onclick="smoothScroll('skill', -100); return false;">Skill</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <div class="extra-nav">
+            <a href="#"><span>AVAILABLE FOR WORK</span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="content">
+          <div class="shape-1"></div>
+          <div class="shape-2"></div>
+          <div class="line"></div>
+          <div class="text">
+            <h1 class="row-1" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">GIỚI THIỆU BẢN THÂN</h1>
+            <h1 class="row-2" data-aos="flip-down" data-aos-delay="800" data-aos-duration="1000">WEBSITE</h1>
+          </div>
+          <box-icon name="chevron-down" class="arrow"></box-icon>
+
+          <div class="short-info">
+            <div
+              class="left-side"
+              data-aos="fade-up-right"
+              data-aos-delay="400"
+            >
+              <h1>Sống tại TP Hồ Chí Minh, Việt Nam, 
+              </h1>Hiện đang theo học tại Trường THPT Nguyễn Thị Diệu.</h1>
+              <p class="time"></p>
+            </div>
+
+            <div
+              class="right-side"
+              data-aos="fade-up-left"
+              data-aos-delay="400"
+            >
+              <p>Love Freedom</p>
+              <h1>
+                <div class="pulse"></div>
+                And Enjoy Peaceful Days
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h2 data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">About <hr></h1>
+                    <h1 data-aos="fade-right" data-aos-duration="500" data-aos-delay="500">Duy Thái.</h2>
+                </div>
+                
+                <div class="profile-container" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                  <div class="profile">
+                    <img src="assets/profile.png" alt="profile">
+                  </div>
+                </div>
+                <div class="about-me" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                  <h1>Picasso quote: <span class="type"></span></h1>
+                  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                  <script>
+                  </script>
+                  <p style="font-size: 20px"><i>"Good artists copy, great artists steal."</i></p>
+                  <p style="font-size: 20px"><i>(Họa sĩ giỏi thì sao chép, nghệ sĩ vĩ đại thì ăn cắp).</i></p>
+                  <button onclick="smoothScroll('about', 0)">Learn More <box-icon class="arrow" name='arrow-back'></box-icon></button>
+                </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section class="about about-center" id="about">
+      <div class="container">
+        <div class="content">
+          <div class="title" data-aos="fade-down" data-aos-delay="300">
+            <h2>Thông tin cá nhân
+</h2>
+            <h1>Duy Thái</h1>
+          </div>
+          <div class="about-grid" data-aos="fade-up" data-aos-delay="400">
+            <div class="card">
+              <h3>Thông tin</h3>
+              <p>Tôi là Lê Quang Duy Thái, hiện đang theo học tại trường THPT Nguyễn Thị Diệu (từ 2023-2026), là một học sinh lớp 12A2. Tôi đang sinh sống và học tập tại TP. Hồ Chí Minh.</p>
+              <p>Tôi là người hòa đồng, dễ tính, dễ chịu, tôi có thể làm quen với nhiều người. Là người có lối sống tự do, luôn muốn khám phá những thứ không biết, luôn tò mò, thích khám phá bản thân.</p>
+              <p>Trong tương lai, chắc tôi sẽ theo học trường Hutech, vì tôi không muốn có cảm giác xa nhà, nhờ gia đình nên sẽ quyết định theo học. nếu năng lực của tôi đủ cao thì tôi sẽ vô được.</p>
+            </div>
+            <div class="card">
+              <h3>Học vấn</h3>
+              <p>Đạt học sinh giỏi 4 năm liền Cấp 2.</p>
+              <p>Đạt hạnh kiểm tốt 11 năm liền.</p>
+              <p>Tham gia phong trào thi đua tốt, tích cực.</p>
+              <p>Cháu ngoan Bác Hồ trong suốt những năm học tại trường cấp 1, cấp 2, cấp 3</p>
+            </div>
+            <div class="card">
+              <h3>Sở thích</h3>
+              <p>Tôi có niềm đam mê với môn Hóa Học, luôn tò mò về những chất mới lạ, chúng tác dụng với nhau như thế nào, sẽ có phản ứng gì, sẽ tạo ra phép màu gì.</p>
+              <p>Ngoài ra, tôi còn đam mê văn hóa Nhật Bản. Vì là niềm hứng thú lớn mà tôi muốn khám phá và tìm hiểu sâu hơn. Hơn nữa, đam mê ấy giúp tôi tìm được nhiều người bạn, giúp tôi hiểu thêm về cuộc sống.</p>
+              <p>Tôi thích đi khám phá những thứ mới mẻ mà mình chưa bao giờ thấy, luôn cố gắng để tạo điều kiện cho mình để cải thiện bản thân. Có ước muốn làm nhà văn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project" id="skill">
+      <div class="container">
+        <div class="content">
+          <div class="header">
+            <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" onclick="window.location.href='#about'">View my Biography<box-icon class="arrow" name='arrow-back'></box-icon></button>
+            <div class="title">
+              <h1 class="row-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300"><hr>Kinh nghiệm</h1>
+              <H1 class="row-2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">SKILLS</H1>
+            </div>
+          </div>
+          <div class="about-grid" data-aos="fade-up" data-aos-delay="400">
+            <div class="card">
+              <h3>Kết bạn</h3>
+              <p>Ngôn ngữ của tôi rất linh hoạt, phải chăng vì tôi viết văn hay hoặc ước mơ làm nhà văn nên mới có nhiều ngôn từ. </p>
+              <p>Có thể làm quen một người xa lạ dù mới gặp lần đầu, làm cho bầu không khí trở nên dễ chịu, không ngượng ngùng. </p>
+              <p>Biết sử dụng ngôn từ đúng môi trường, đúng trường thời điểm, có thể lắng nghe mọi người để đưa ra câu trả lời tốt nhất.</p>
+            </div>
+            <div class="card">
+              <h3>Học tập</h3>
+              <p>Có tinh thần tự học, luôn biết áp dụng vừa học vừa chơi.</p>
+              <p>Khi không biết làm bài sẽ luôn hỏi những người xung quanh kể cả thầy/cô giáo để giúp cho mình tiến bộ hơn nữa.</p>
+              <p>Có khả năng ứng dụng AI trong học tập để tối ưu hiệu quả học tập và tìm lỗi. Giúp cho điểm của bản thân dần tốt hơn.</p>
+            </div>
+            <div class="card">
+              <h3>Làm việc nhóm</h3>
+              <p>Có khả năng lắng nghe, tâm sự của mọi người. Rồi đưa ra cách giải quyết tốt nhất</p>
+              <p>Có khả năng làm chủ các công cụ thiết kế thuyết trình hàng đầu như PowerPoint và Canva, đảm bảo nội dung truyền tải trực quan và hiệu quả. </p>
+              <p>Tôi nắm vững nguyên tắc thiết kế thị giác (Visual Design), bao gồm cách điều chỉnh ánh sáng, bố cục, cùng khả năng ứng dụng hiệu quả kiến thức phối màu. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      function smoothScroll(elementId, offset = 0) {
+        const element = document.getElementById(elementId);
+        if (element) {
+          const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+            top: elementPosition + offset,
+            behavior: 'smooth'
+          });
+        }
+      }
+    </script>
+    <footer id="contact">
+      <div class="container">
+        <div class="profile">
+          <div class="logo">
+            <a href="">Duy Thái - Simple Portfolio</a>
+          </div>
+          <p> </p>
+          <p> </p>
+          <p>
+            Có nhu cầu tham khảo projects, vui lòng liên hệ tại facebook của tôi.</p>
+            <p>Xin cảm ơn! :)))))</p>
+          <div class="social-media-container">
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="instagram"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="tiktok"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" name="youtube" type="logo"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon
+                color="#fff"
+                name="facebook-circle"
+                type="logo"
+              ></box-icon>
+            </div>
+          </div>
+        </div>
+        <div class="link-container">
+          <div class="information">
+            <h1>Information</h1>
+            <ul>
+              <li>
+                <a href="#">Our Company</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Shop</a>
+              </li>
+            </ul>
+          </div>
+          <div class="resource">
+            <h1>Resources</h1>
+            <ul>
+              <li>
+                <a href="#">Support 24/7</a>
+              </li>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+              <li>
+                <a href="#">Terms & Condition</a>
+              </li>
+              <li>
+                <a href="#">Articles  </a>
+              </li>
+            </ul>
+          </div>
+          <div class="navigation">
+            <h1>Navigation</h1>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#skill">Skill</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
+
+
